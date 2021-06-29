@@ -1,0 +1,15 @@
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Service.dll
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Service.pdb
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Data.dll
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Domain.dll
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\EntityFramework.dll
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Data.pdb
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Data.dll.config
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Domain.pdb
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\Domain.dll.config
+C:\Users\fedig\source\repos\GestionProduits\Service\bin\Debug\EntityFramework.xml
+C:\Users\fedig\source\repos\GestionProduits\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\fedig\source\repos\GestionProduits\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\fedig\source\repos\GestionProduits\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\fedig\source\repos\GestionProduits\Service\obj\Debug\Service.dll
+C:\Users\fedig\source\repos\GestionProduits\Service\obj\Debug\Service.pdb

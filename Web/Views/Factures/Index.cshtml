@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Domain.Entities.Facture>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Client.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prix)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Client.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prix)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { productId = item.ProductId, clientId = item.ClientId, dateAchat = item.DateAchat }) |
+            @Html.ActionLink("Details", "Details", new { productId = item.ProductId, clientId = item.ClientId, dateAchat = item.DateAchat }) |
+            @Html.ActionLink("Delete", "Delete", new { productId = item.ProductId, clientId = item.ClientId, dateAchat = item.DateAchat })
+        </td>
+    </tr>
+}
+
+</table>
